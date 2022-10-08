@@ -18,6 +18,7 @@ const Home = ({ products, bannerData }) => (
     <FooterBanner footerBanner={bannerData && bannerData[0]} />
   </div>
 );
+// hhh
 
 export const getServerSideProps = async () => {
   const query = '*[_type == "product"]';
